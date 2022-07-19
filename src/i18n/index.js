@@ -11,12 +11,13 @@ i18n
   .use(initReactI18next)
   .init({
     debug: true,
+    load: 'languageOnly',
     resources: {
       en: {
-        translations: enTranslations,
+        translation: enTranslations,
       },
       fr: {
-        translations: frTranslations,
+        translation: frTranslations,
       },
     },
     whitelist: ['en', 'fr'],
