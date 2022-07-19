@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 
-export const Container = styled.div``;
-
-export const Photo = styled.div``;
+export const Container = styled.div`
+  padding: ${({ theme }) => theme.defaultSpacing } 0;
+`;
 
 export const FullName = styled.h1``;
 

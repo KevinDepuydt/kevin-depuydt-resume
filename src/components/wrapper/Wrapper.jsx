@@ -1,22 +1,33 @@
 import React from 'react';
+import Contact from 'components/contact/Contact';
+import Education from 'components/education/Education';
+import Hobbies from 'components/hobbies/Hobbies';
+import Languages from 'components/languages/Languages';
+import ProfessionalExperiences from 'components/professional-experiences/ProfessionalExperiences';
+import ProfessionalProfile from 'components/professional-profile/ProfessionalProfile';
+import ProfileImage from 'components/profile-image/ProfileImage';
+import ProfileInfos from 'components/profile-infos/ProfileInfos';
+import References from 'components/references/References';
+import Skills from 'components/skills/Skills';
 import { MainContainer, LeftContainer, RightContainer } from './Wrapper.styled';
-import Profile from '../profile/Profile';
 
 
 export default function Wrapper() {
   return (
     <MainContainer>
       <LeftContainer>
-        <Profile />
-        {/* contact */}
-        {/* skills */}
-        {/* hobbies */}
+        <ProfileImage />
+        <Contact />
+        <Skills />
+        <Languages />
+        <Hobbies />
       </LeftContainer>
       <RightContainer>
-        {/* professional introduction */}
-        {/* professional experiences */}
-        {/* education */}
-        {/* references */}
+        <ProfileInfos />
+        <ProfessionalProfile />
+        <ProfessionalExperiences />
+        <Education />
+        <References />
       </RightContainer>
     </MainContainer>
   );

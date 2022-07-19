@@ -1,5 +1,7 @@
-import './i18n';
+import { ThemeProvider } from 'styled-components';
 import Wrapper from './components/wrapper/Wrapper';
+import theme from './styling/theme';
+import { GlobalStyles } from 'styling/global-styles';
 
 
 /**
@@ -10,5 +12,10 @@ import Wrapper from './components/wrapper/Wrapper';
  * @constructor
  */
 export default function App() {
-  return <Wrapper />;
+  return (
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <Wrapper />
+    </ThemeProvider>
+  );
 }
