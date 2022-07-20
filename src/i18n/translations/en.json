@@ -1,4 +1,18 @@
 {
   "fullName": "Kevin Depuydt",
-  "jobTitle": "Web developer"
+  "jobTitle": "Web developer",
+  "professionalProfile": {
+    "title": "Professional profile",
+    "introduction": "Développeur curieux et passioné par les technologies du web avec plus de 5 ans d'expérience dans la conception et le développement de projets web. Adepte de la programmation fonctionnelle et du principe KISS, j'aime que le code soit bien structuré, clair et commenté. Réactif et doté d'un fort esprit d'équipe, mon aide est souvent appréciée pour résoudre des problèmes compliqués ou relever de nouveaux challenges."
+  },
+  "skills": {
+    "title": "Skills",
+    "mainLanguages": "HTML5/CSS3, JavaScript, TypeScript, Python programming languages",
+    "otherLanguages": "Already used Golang, PHP, Ruby, Java, Swift, C, Pascal",
+    "libraries": "MongoDB, Express, React, Redux, GraphQL, i18next libraries",
+    "practices": "Pair programming, Code reviews",
+    "devops": "Unix Systems and DevOps",
+    "management": "Agile and SCRUM methodologies",
+    "tools": "JetBrains IDEs, Atom, Git & Github, npm, "
+  }
 }
