@@ -107,7 +107,19 @@
   ],
   "references": [
     {
-
+      "name": "Yan GEORGET",
+      "job": "Co-fondateur et CTO chez Botfuel",
+      "contact": "yan@botfuel.io"
+    },
+    {
+      "name": "Jérémy CRUZ",
+      "job": "CTO chez WebCentric",
+      "contact": "cruz@wcentric.com"
+    },
+    {
+      "name": "Vincent WUHRLIN",
+      "job": "CTO Chez Coursierprivé.com",
+      "contact": "vincent.wuhrlin@coursierprive.com"
     }
   ]
 }
