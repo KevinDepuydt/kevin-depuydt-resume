@@ -42,13 +42,14 @@
         "type": "CDI",
         "location": "Paris",
         "details": [
-          "Développement et maintient d'un écosystème d'applications de support client, dont un backoffice utilisant une API rest, un module de chat intelligent, un module d'affichage de FAQ dynamique et un serveur pour le module de chat et de FAQ. Les technologies utilisées pour ces applications sont React, Axios, Socket.io, Semantic UI et Styled components, Node.js, Redis, TypeScript. Elles sont déployées sur Heroku et AWS.",
-          "Conception et développement de Botfuel Dialog, un SDK de développement de chatbots en Node.js.",
-          "Déclinaison du SDK Botfuel Dialog sous forme d'application web utilisable par le grand public.",
+          "Développement et maintient d'un écosystème d'applications de support client, dont un backoffice utilisant une API rest, un module de chat intelligent, un module d'affichage de FAQ dynamique et un serveur pour le module de chat et de FAQ. Les technologies utilisées pour ces applications sont React, Axios, Socket.io, Semantic UI et Styled components, Node.js, Redis, TypeScript.",
+          "Déploiement des différentes applications sur Heroku et AWS via un pipeline de CI/CD.",
+          "Conception et développement de Botfuel Dialog, un SDK open source de développement de chatbots en Node.js.",
+          "Implémentation du SDK Botfuel Dialog sous forme d'application web utilisable par le grand public.",
           "Maintient et traduction du site web de l'entreprise développé avec Gatsby.js et PHP.",
           "Développement de fonctionanlités et maintient d'un projet de chatbot client en coffeescript.",
-          "Développement d'un proxy en Node.js permettant l'utilisation publique, sécurisée et unifiée des différentes API de l'entreprise",
-          "Ecriture de modules permettant l'intégration de la solution de support client sur les sites utilisants Magento, Wordpress et Shopify"
+          "Développement d'un proxy en Node.js permettant l'utilisation publique, sécurisée et unifiée des différentes API de l'entreprise.",
+          "Développement de modules intégrant la solution de support client de l'entreprise sur les sites web Magento, Wordpress et Shopify"
         ]
       },
       {
@@ -57,7 +58,7 @@
         "type": "Stage de fin d'étude",
         "location": "Paris",
         "details": [
-          "Développement de l'interface d'une API de bot de questions/réponses avec React et Redux.",
+          "Développement d'une interface de bot de questions/réponses connectée à une API rest, avec React et Redux.",
           "Développements divers en Node.js, Angular, React, Python et Grav."
         ]
       },
@@ -67,7 +68,7 @@
         "type": "Stage",
         "location": "Paris",
         "details": [
-          "Développement de fonctionnalités sur le Dashboard, développement et migration du dashboard V2.",
+          "Développement de fonctionnalités sur le Dashboard et migration vers le dashboard V2.",
           "Utilisation de AngularJS, Java, Vert.x, MongoDB et git."
         ]
       },
