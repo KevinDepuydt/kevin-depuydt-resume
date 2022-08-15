@@ -6,8 +6,8 @@ import Languages from 'components/languages/Languages';
 import ProfessionalExperiences from 'components/professional-experiences/ProfessionalExperiences';
 import ProfessionalProfile from 'components/professional-profile/ProfessionalProfile';
 import ProfileImage from 'components/profile-image/ProfileImage';
-import ProfileInfos from 'components/profile-infos/ProfileInfos';
-import References from 'components/references/References';
+import ProfileInformations from 'components/profile-informations/ProfileInformations';
+// import References from 'components/references/References';
 import Skills from 'components/skills/Skills';
 import { MainContainer, LeftContainer, RightContainer } from './Wrapper.styled';
 
@@ -23,11 +23,11 @@ export default function Wrapper() {
         <Hobbies />
       </LeftContainer>
       <RightContainer>
-        <ProfileInfos />
+        <ProfileInformations />
         <ProfessionalProfile />
         <ProfessionalExperiences />
         <Education />
-        <References />
+        {/*<References />*/}
       </RightContainer>
     </MainContainer>
   );

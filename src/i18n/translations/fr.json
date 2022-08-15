@@ -1,4 +1,11 @@
 {
+  "contact": {
+    "title": "Contact",
+    "email": "kevin.dpdt@gmail.com",
+    "phone": "0781581174",
+    "github": "/KevinDepuydt",
+    "linkedin": "/in/kevin-depuydt"
+  },
   "skills": {
     "title": "Compétences",
     "list": [
@@ -26,101 +33,114 @@
       "Trading et Crypto monnaies"
     ]
   },
-  "profileInformations": {
-    "fullName": "Kevin Depuydt",
-    "jobTitle": "Développeur Web"
+  "profile": {
+    "name": "Kevin Depuydt",
+    "job": "Développeur Web"
   },
   "professional": {
     "profile": {
       "title": "Profil professionnel",
       "introduction": "Développeur curieux et passioné par les technologies du web avec plus de 5 ans d'expérience dans la conception et le développement de projets web. Adepte de la programmation fonctionnelle et du principe KISS, j'aime que le code soit bien structuré, clair et commenté. Réactif et doté d'un fort esprit d'équipe, mon aide est souvent appréciée pour résoudre des problèmes compliqués ou relever de nouveaux challenges."
     },
-    "experiences": [
+    "experiences": {
+      "title": "Expériences professionnelle",
+      "list": [
+        {
+          "title": "Développeur web chez Botfuel",
+          "date": "08/2017 - actuel",
+          "type": "CDI",
+          "location": "Paris",
+          "details": [
+            "Développement et maintient d'un écosystème d'applications de support client, dont un backoffice utilisant une API rest, un module de chat intelligent, un module d'affichage de FAQ dynamique et un serveur pour le module de chat et de FAQ. Les technologies utilisées pour ces applications sont React, Axios, Socket.io, Semantic UI et Styled components, Node.js, Redis, TypeScript.",
+            "Déploiement des différentes applications sur Heroku et AWS via un pipeline de CI/CD.",
+            "Conception et développement de Botfuel Dialog, un SDK open source de développement de chatbots en Node.js.",
+            "Implémentation du SDK Botfuel Dialog sous forme d'application web utilisable par le grand public.",
+            "Maintient et traduction du site web de l'entreprise développé avec Gatsby.js et PHP.",
+            "Développement de fonctionanlités et maintient d'un projet de chatbot client en coffeescript.",
+            "Développement d'un proxy en Node.js permettant l'utilisation publique, sécurisée et unifiée des différentes API de l'entreprise.",
+            "Développement de modules intégrant la solution de support client de l'entreprise sur les sites web Magento, Wordpress et Shopify"
+          ]
+        },
+        {
+          "title": "Développeur web chez Botfuel",
+          "date": "2017, 6 mois",
+          "type": "Stage de fin d'étude",
+          "location": "Paris",
+          "details": [
+            "Développement d'une interface de bot de questions/réponses connectée à une API rest, avec React et Redux.",
+            "Développements divers en Node.js, Angular, React, Python et Grav."
+          ]
+        },
+        {
+          "title": "Développeur web chez Coursierprivé.com",
+          "date": "2016, 3 mois",
+          "type": "Stage",
+          "location": "Paris",
+          "details": [
+            "Développement de fonctionnalités sur le Dashboard et migration vers le dashboard V2.",
+            "Utilisation de AngularJS, Java, Vert.x, MongoDB et git."
+          ]
+        },
+        {
+          "title": "Développeur web chez Webcentric",
+          "date": "2015, 4 mois",
+          "type": "Stage",
+          "location": "Paris",
+          "details": [
+            "Résolution de bugs et développement de fonctionnalités sur la solution de maintenance informatique FanaticalHelp.",
+            "Utilisation de PHP, MySQL, POO, JS, Ajax, DoT.js et git."
+          ]
+        },
+        {
+          "title": "Missions de développement web",
+          "date": "2014-2015",
+          "type": "Freelance",
+          "location": "Paris",
+          "details": [
+            "Développements sur 6 projets de site web.",
+            "Utilisation de PHP, MySQL, Wordpress, Symfony, JS, JQuery et Ajax."
+          ]
+        }
+      ]
+    }
+  },
+  "education": {
+    "title": "Formation",
+    "list": [
       {
-        "title": "Développeur web chez Botfuel",
-        "date": "08/2017 - actuel",
-        "type": "CDI",
-        "location": "Paris",
-        "details": [
-          "Développement et maintient d'un écosystème d'applications de support client, dont un backoffice utilisant une API rest, un module de chat intelligent, un module d'affichage de FAQ dynamique et un serveur pour le module de chat et de FAQ. Les technologies utilisées pour ces applications sont React, Axios, Socket.io, Semantic UI et Styled components, Node.js, Redis, TypeScript.",
-          "Déploiement des différentes applications sur Heroku et AWS via un pipeline de CI/CD.",
-          "Conception et développement de Botfuel Dialog, un SDK open source de développement de chatbots en Node.js.",
-          "Implémentation du SDK Botfuel Dialog sous forme d'application web utilisable par le grand public.",
-          "Maintient et traduction du site web de l'entreprise développé avec Gatsby.js et PHP.",
-          "Développement de fonctionanlités et maintient d'un projet de chatbot client en coffeescript.",
-          "Développement d'un proxy en Node.js permettant l'utilisation publique, sécurisée et unifiée des différentes API de l'entreprise.",
-          "Développement de modules intégrant la solution de support client de l'entreprise sur les sites web Magento, Wordpress et Shopify"
-        ]
+        "date": "2017",
+        "diploma": "Bachelor Manager de Projet Web",
+        "diplomaDetails": "spécialité développement, mention très bien",
+        "school": "SUP'Internet",
+        "location": "Paris"
       },
       {
-        "title": "Développeur web chez Botfuel",
-        "date": "2017, 6 mois",
-        "type": "Stage de fin d'étude",
-        "location": "Paris",
-        "details": [
-          "Développement d'une interface de bot de questions/réponses connectée à une API rest, avec React et Redux.",
-          "Développements divers en Node.js, Angular, React, Python et Grav."
-        ]
-      },
-      {
-        "title": "Développeur web chez Coursierprivé.com",
-        "date": "2016, 3 mois",
-        "type": "Stage",
-        "location": "Paris",
-        "details": [
-          "Développement de fonctionnalités sur le Dashboard et migration vers le dashboard V2.",
-          "Utilisation de AngularJS, Java, Vert.x, MongoDB et git."
-        ]
-      },
-      {
-        "title": "Développeur web chez Webcentric",
-        "date": "2015, 4 mois",
-        "type": "Stage",
-        "location": "Paris",
-        "details": [
-          "Résolution de bugs et développement de fonctionnalités sur la solution de maintenance informatique FanaticalHelp.",
-          "Utilisation de PHP, MySQL, POO, JS, Ajax, DoT.js et git."
-        ]
-      },
-      {
-        "title": "Missions de développement web",
-        "date": "2014-2015",
-        "type": "Freelance",
-        "location": "Paris",
-        "details": [
-          "Développements sur 6 projets de site web.",
-          "Utilisation de PHP, MySQL, Wordpress, Symfony, JS, JQuery et Ajax."
-        ]
+        "date": "2013",
+        "diploma": "Baccalauréat Scientifique",
+        "diplomaDetails": "option Informatique et Sciences du Numérique",
+        "school": "Lycée J.Rostand",
+        "location": "Chantilly"
       }
     ]
   },
-  "education": [
-    {
-      "diploma": "Bachelor Manager de Projet Web, spécialité développement, mention très bien",
-      "school": "SUP'Internet",
-      "location": "Paris"
-    },
-    {
-      "diploma": "Baccalauréat Scientifique, option ISN",
-      "school": "Lycée J.Rostand",
-      "location": "Chantilly"
-    }
-  ],
-  "references": [
-    {
-      "name": "Yan GEORGET",
-      "job": "Co-fondateur et CTO chez Botfuel",
-      "contact": "yan@botfuel.io"
-    },
-    {
-      "name": "Jérémy CRUZ",
-      "job": "CTO chez WebCentric",
-      "contact": "cruz@wcentric.com"
-    },
-    {
-      "name": "Vincent WUHRLIN",
-      "job": "CTO Chez Coursierprivé.com",
-      "contact": "vincent.wuhrlin@coursierprive.com"
-    }
-  ]
+  "references": {
+    "title": "Réferences",
+    "list": [
+      {
+        "name": "Yan GEORGET",
+        "job": "Co-fondateur et CTO chez Botfuel",
+        "contact": "yan@botfuel.io"
+      },
+      {
+        "name": "Jérémy CRUZ",
+        "job": "CTO chez WebCentric",
+        "contact": "cruz@wcentric.com"
+      },
+      {
+        "name": "Vincent WUHRLIN",
+        "job": "CTO Chez Coursierprivé.com",
+        "contact": "vincent.wuhrlin@coursierprive.com"
+      }
+    ]
+  }
 }

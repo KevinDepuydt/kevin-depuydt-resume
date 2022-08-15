@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 
 
 import enTranslations from './translations/en.json';
-import frTranslations from './translations/en.json';
+import frTranslations from './translations/fr.json';
 
 i18n
   .use(detector)

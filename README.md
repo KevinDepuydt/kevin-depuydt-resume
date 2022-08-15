@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Kevin Depuydt Resum
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Kevin Depuydt Resume made with <3 and React
+
+## Save / Print
+
+Use browser print feature (cmd+p) to print or save the resume as PDF.
 
 ## Available Scripts
 

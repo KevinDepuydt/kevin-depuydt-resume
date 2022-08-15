@@ -1,32 +1,34 @@
 import React, { useState } from 'react';
-import { List, ListItem, ListItemText } from './Contact.styled';
+import { useTranslation } from 'react-i18next';
 import { Container } from 'components/common/containers.styled';
 import { MaterialIcon } from 'components/common/icons.styled';
 import { SectionHeader } from 'components/common/headers.styled';
+import { ContactList, ContactListItem } from 'components/contact/Contact.styled';
 
 import { ReactComponent as GithubIconSvg } from 'assets/github-icon.svg';
 import { ReactComponent as LinkedinIconSvg } from 'assets/linkedin-icon.svg';
 
 
 export default function Contact() {
+  const { t } = useTranslation();
   const [items] = useState([
-    { icon: <MaterialIcon>mail</MaterialIcon>, text: 'kevin.dpdt@gmail.com' },
-    { icon: <MaterialIcon>phone</MaterialIcon>, text: '0781581174' },
-    { icon: <GithubIconSvg />, text: '/in/kevin-depuydt' },
-    { icon: <LinkedinIconSvg />, text: '/KevinDepuydt' },
+    { icon: <MaterialIcon>mail</MaterialIcon>, text: t('contact.email') },
+    { icon: <MaterialIcon>phone</MaterialIcon>, text: t('contact.phone') },
+    { icon: <GithubIconSvg />, text: t('contact.linkedin') },
+    { icon: <LinkedinIconSvg />, text: t('contact.github') },
   ]);
 
   return (
     <Container>
-      <SectionHeader>Contact</SectionHeader>
-      <List>
-        {items.map(({ icon, text }) => (
-          <ListItem>
+      <SectionHeader primary>{t('contact.title')}</SectionHeader>
+      <ContactList>
+        {items.map(({ icon, text }, index) => (
+          <ContactListItem key={`contact-item-${index}`}>
             {icon}
-            <ListItemText>{text}</ListItemText>
-          </ListItem>
+            <span>{text}</span>
+          </ContactListItem>
         ))}
-      </List>
+      </ContactList>
     </Container>
   );
 }
