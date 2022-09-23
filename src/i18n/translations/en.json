@@ -53,7 +53,7 @@
           "location": "Paris",
           "technologies": "React.js, Axios, Styled Components, Node.js, MongoDB, Redis, Socket.io, JavaScript, TypeScript, CoffeeScript, Python, PHP, Gatsby.js, Grav",
           "details": [
-            "Development and maintenance of an ecosystem of customer support applications, including a backoffice using an API rest, an intelligent chat module, a dynamic FAQ display module and a server for the chat and FAQ module.",
+            "Development and maintenance of an ecosystem of customer support applications, including a back office using an API rest, an intelligent chat module, a dynamic FAQ display module and a server for the chat and FAQ module.",
             "Deployment of various applications on Heroku and AWS using CI/CD pipelines.",
             "Design and development of Botfuel Dialog, an open source SDK for developing chatbots.",
             "Implementation of the Botfuel Dialog SDK as a web application usable by everyone.",
@@ -112,7 +112,7 @@
       {
         "date": "2017",
         "diploma": "Bachelor in Web Project Management",
-        "diplomaDetails": "web development speciality, with highest honour",
+        "diplomaDetails": "web development speciality, with highest honor",
         "school": "SUP'Internet",
         "location": "Paris"
       },
