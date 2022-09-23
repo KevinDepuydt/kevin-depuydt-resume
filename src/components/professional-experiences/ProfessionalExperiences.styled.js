@@ -17,13 +17,21 @@ export const ItemTitle = styled.span`
 `;
 
 export const ItemDate = styled.span`
-  ${secondaryInformationCss}
+  ${secondaryInformationCss};
 `;
 
 export const ItemLocation = styled.span`
-  ${secondaryInformationCss}
+  ${secondaryInformationCss};
 `;
 
 export const ItemType = styled.span`
-  ${secondaryInformationCss}
+  ${secondaryInformationCss};
+`;
+
+export const ItemTechnologies = styled.span`
+  ${secondaryInformationCss};
+  
+  display: block;
+  padding-top: 0.5rem;
+  opacity: 0.75;
 `;

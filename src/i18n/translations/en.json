@@ -9,11 +9,12 @@
   "skills": {
     "title": "Skills",
     "list": [
-      "Very good knowledge of HTML5/CSS3, JavaScript, TypeScript, React, Vue, Redux, Node.js, MongoDB, Express, Python, GraphQL and i18next",
-      "Basic knowledge with Unix systems, Golang, PHP, Ruby, Java, Swift, C and Pascal",
+      "Very good knowledge of HTML5/CSS3, JavaScript, TypeScript, React.js, Redux, GraphQL, Socket.io, Node.js, MongoDB, Redis, Express.js, Python and I18Next",
+      "Basic knowledge with Angular.js, Vue.js, Unix systems, Golang, PHP, Ruby, Java, Android, Swift and C",
+      "Functional programming, Object Oriented Programming",
       "Pair programming and code reviews",
       "Agile and SCRUM methodologies",
-      "JetBrains IDEs, Atom, Git & Github, npm, Postman"
+      "JetBrains IDEs, Atom, Git & Github, Webpack, npm, Postman"
     ]
   },
   "languages": {
@@ -50,14 +51,15 @@
           "date": "08/2017 - now",
           "type": "Permanent contract",
           "location": "Paris",
+          "technologies": "React.js, Axios, Styled Components, Node.js, MongoDB, Redis, Socket.io, JavaScript, TypeScript, CoffeeScript, Python, PHP, Gatsby.js, Grav",
           "details": [
-            "Development and maintenance of an ecosystem of customer support applications, including a backoffice using an API rest, an intelligent chat module, a dynamic FAQ display module and a server for the chat and FAQ module. The technologies used for these applications are React, Axios, Socket.io, Semantic UI and Styled components, Node.js, Redis, TypeScript.",
+            "Development and maintenance of an ecosystem of customer support applications, including a backoffice using an API rest, an intelligent chat module, a dynamic FAQ display module and a server for the chat and FAQ module.",
             "Deployment of various applications on Heroku and AWS using CI/CD pipelines.",
-            "Design and development of Botfuel Dialog, an open source SDK for developing chatbots in Node.js.",
+            "Design and development of Botfuel Dialog, an open source SDK for developing chatbots.",
             "Implementation of the Botfuel Dialog SDK as a web application usable by everyone.",
-            "Maintenance and translation of the company's website developed with Gatsby.js and PHP.",
-            "Development of features and maintenance of a chatbot client project in coffeescript.",
-            "Development of a proxy in Node.js allowing the public, secure and unified use of the different APIs of the company.",
+            "Maintenance and translation of the company's website.",
+            "Development of features and maintenance of a chatbot client project.",
+            "Development of a proxy allowing the public, secure and unified use of the different APIs of the company.",
             "Development of modules integrating the company customer support solution on Magento, Wordpress and Shopify websites."
           ]
         },
@@ -66,9 +68,9 @@
           "date": "2017, 6 months",
           "type": "End of study internship",
           "location": "Paris",
+          "technologies": "React.js, Redux, Node.js, MongoDB, Angular.js, Python, Grav",
           "details": [
-            "Development of a question/answer bot interface connected to an API rest, with React and Redux.",
-            "Various developments in Node.js, Angular, React, Python and Grav."
+            "Development of a question/answer bot interface connected to an API rest, with React and Redux."
           ]
         },
         {
@@ -76,9 +78,9 @@
           "date": "2016, 3 months",
           "type": "Internship",
           "location": "Paris",
+          "technologies": "AngularJS, Java, Vert.x, MongoDB",
           "details": [
-            "Development of features on the Dashboard and migration to the V2 dashboard.",
-            "Worked with AngularJS, Java, Vert.x, MongoDB and git."
+            "Development of features on the Dashboard and migration to the V2 dashboard."
           ]
         },
         {
@@ -86,9 +88,9 @@
           "date": "2015, 4 months",
           "type": "Internship",
           "location": "Paris",
+          "technologies": "PHP, MySQL, POO, JS, Ajax, DoT.js",
           "details": [
-            "Bug fixing and feature development on the computer maintenance solution FanaticalHelp.",
-            "Worked with PHP, MySQL, POO, JS, Ajax, DoT.js and git."
+            "Bug fixing and feature development on the computer maintenance solution FanaticalHelp."
           ]
         },
         {
@@ -96,9 +98,9 @@
           "date": "2014-2015",
           "type": "Freelance",
           "location": "Paris",
+          "technologies": "PHP, MySQL, Wordpress, Symfony, JS, JQuery et Ajax",
           "details": [
-            "Participation in the development of 6 website projects.",
-            "Worked with PHP, MySQL, Wordpress, Symfony, JS, JQuery and Ajax."
+            "Participation in the development of 6 website projects."
           ]
         }
       ]
