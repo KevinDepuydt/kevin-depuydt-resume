@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 
@@ -7,10 +7,10 @@ export default function LanguageSelector({ onChange }) {
   const [language, setLanguage] = useState(i18n.resolvedLanguage);
 
   const handleChange = async (e) => {
-    const { value } = e.target;
-    setLanguage(value);
-    i18n.changeLanguage(value);
-    onChange();
+    const { value: selectedLanguage } = e.target;
+    setLanguage(selectedLanguage);
+    i18n.changeLanguage(selectedLanguage);
+    onChange(selectedLanguage);
   };
 
   return (

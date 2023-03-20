@@ -14,11 +14,14 @@ import { useState } from 'react';
  * @constructor
  */
 export default function App() {
-  const [counter, setCounter] = useState();
+  function handleLanguageChange() {
+    window.location.reload();
+  }
+
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <LanguageSelector onChange={() => setCounter(counter + 1)} />
+      <LanguageSelector onChange={handleLanguageChange} />
       <Wrapper />
     </ThemeProvider>
   );
