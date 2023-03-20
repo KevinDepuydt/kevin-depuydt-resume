@@ -3,7 +3,6 @@ import Wrapper from './components/wrapper/Wrapper';
 import theme from './styling/theme';
 import { GlobalStyles } from 'styling/global-styles';
 import LanguageSelector from 'components/language-selector/LanguageSelector';
-import { useState } from 'react';
 
 
 /**

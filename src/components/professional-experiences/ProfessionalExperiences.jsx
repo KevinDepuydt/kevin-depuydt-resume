@@ -10,7 +10,6 @@ import {
   ItemType,
   ItemDate,
   ItemLocation,
-  ItemTechnologies,
 } from 'components/professional-experiences/ProfessionalExperiences.styled';
 
 

@@ -27,11 +27,3 @@ export const ItemLocation = styled.span`
 export const ItemType = styled.span`
   ${secondaryInformationCss};
 `;
-
-export const ItemTechnologies = styled.span`
-  ${secondaryInformationCss};
-  
-  display: block;
-  padding-top: 0.5rem;
-  opacity: 0.75;
-`;
