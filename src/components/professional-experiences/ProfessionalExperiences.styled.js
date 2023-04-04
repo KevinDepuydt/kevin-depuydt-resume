@@ -7,7 +7,9 @@ export const Item = styled.div`
   color: ${({ theme }) => theme.textColor};
 `;
 
-export const ItemGroup = styled.div``;
+export const ItemGroup = styled.div`
+  margin-top: 0.2rem;
+`;
 
 export const ItemTitle = styled.span`
   color: ${({ theme }) => theme.primaryColor};
@@ -26,4 +28,11 @@ export const ItemLocation = styled.span`
 
 export const ItemType = styled.span`
   ${secondaryInformationCss};
+`;
+
+export const ItemTechnologies = styled.span`
+  ${secondaryInformationCss};
+  font-size: 0.9rem;
+  opacity: 1;
+  // color: black;
 `;

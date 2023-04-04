@@ -10,6 +10,7 @@ import {
   ItemType,
   ItemDate,
   ItemLocation,
+  ItemTechnologies,
 } from 'components/professional-experiences/ProfessionalExperiences.styled';
 
 
@@ -27,9 +28,9 @@ export default function ProfessionalExperiences() {
           <ItemGroup>
             <ItemDate>{item.date}</ItemDate> | <ItemType>{item.type}</ItemType> | <ItemLocation>{item.location}</ItemLocation>
           </ItemGroup>
-          {/*<ItemGroup>*/}
-          {/*  <ItemTechnologies>{item.technologies}</ItemTechnologies>*/}
-          {/*</ItemGroup>*/}
+          <ItemGroup>
+            <ItemTechnologies>{item.technologies}</ItemTechnologies>
+          </ItemGroup>
           <ItemGroup>
             <List>
               {item.details.map((detailsItem, detailsItemIndex) => (

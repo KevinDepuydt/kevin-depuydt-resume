@@ -9,8 +9,8 @@
   "skills": {
     "title": "Skills",
     "list": [
-      "Very good knowledge of HTML5/CSS3, JavaScript, TypeScript, React.js, Redux, GraphQL, Socket.io, Node.js, MongoDB, Redis, Express.js, Python and I18Next",
-      "Basic knowledge with Angular.js, Vue.js, Unix systems, Golang, PHP, Ruby, Java, Android, Swift and C",
+      "Very good knowledge of JavaScript, TypeScript, React, Node, HTML5/CSS3, Redux, GraphQL, Socket.io, MongoDB, Redis, Express, Python and I18Next",
+      "Basic knowledge with Angular, Vue, Unix systems, Golang, PHP, Ruby, Java, Android, Swift and C",
       "Functional programming, Object Oriented Programming",
       "Pair programming and code reviews",
       "Agile and SCRUM methodologies",
@@ -51,7 +51,7 @@
           "date": "08/2017 - 11/2022",
           "type": "Permanent contract",
           "location": "Paris",
-          "technologies": "React.js, Axios, Styled Components, Node.js, MongoDB, Redis, Socket.io, JavaScript, TypeScript, CoffeeScript, Python, PHP, Gatsby.js, Grav",
+          "technologies": "JavaScript, TypeScript, React, Node, MongoDB, Redis, Socket.io, Axios, Styled Components, CoffeeScript, Python, Gatsby, PHP, Grav",
           "details": [
             "Development and maintenance of an ecosystem of customer support applications, including a back office using an API rest, an intelligent chat module, a dynamic FAQ display module and a server for the chat and FAQ module.",
             "Deployment of various applications on Heroku and AWS using CI/CD pipelines.",
@@ -68,7 +68,7 @@
           "date": "2017, 6 months",
           "type": "End of study internship",
           "location": "Paris",
-          "technologies": "React.js, Redux, Node.js, MongoDB, Angular.js, Python, Grav",
+          "technologies": "React, Redux, Node, MongoDB, Angular, Python, Grav",
           "details": [
             "Development of a question/answer bot interface connected to an API rest, with React and Redux."
           ]

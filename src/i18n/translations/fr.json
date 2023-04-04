@@ -9,8 +9,8 @@
   "skills": {
     "title": "Compétences",
     "list": [
-      "Maîtrise de HTML5/CSS3, JavaScript, TypeScript, React.js, Redux, GraphQL, Socket.io, Node.js, MongoDB, Redis, Express.js, Python et I18Next",
-      "Bases avec Angular.js, Vue.js, les Systèmes Unix, Golang, PHP, Ruby, Java, Android, Swift et C",
+      "Maîtrise de JavaScript, TypeScript, React, Node, HTML5/CSS3, Redux, GraphQL, Socket.io, MongoDB, Redis, Express, Python et I18Next",
+      "Bases avec Angular, Vue, les Systèmes Unix, Golang, PHP, Ruby, Java, Android, Swift et C",
       "Programmation fonctionnelle, Programmation Orientée Object",
       "Pair programming et revues de code",
       "Méthodologies Agile et SCRUM",
@@ -51,7 +51,7 @@
           "date": "08/2017 - 10/2022",
           "type": "CDI",
           "location": "Paris",
-          "technologies": "React, Axios, Styled Components, Node.js, MongoDB, Redis, Socket.io, JavaScript, TypeScript, CoffeeScript, Python, PHP, Gatsby.js, Grav",
+          "technologies": "JavaScript, TypeScript, React, Node, MongoDB, Redis, Socket.io, Axios, Styled Components, CoffeeScript, Python, Gatsby, PHP, Grav",
           "details": [
             "Développement et maintient d'un écosystème d'applications de support client comprenant un backoffice utilisant une API rest, un module de chat intelligent, un module d'affichage de FAQ dynamique et un serveur dédié au module de chat et de FAQ.",
             "Déploiement des différentes applications via des pipelines de CI/CD sur Heroku et AWS.",
@@ -68,7 +68,7 @@
           "date": "2017, 6 mois",
           "type": "Stage de fin d'étude",
           "location": "Paris",
-          "technologies": "React, Redux, Node.js, MongoDB, Angular.js, Python, Grav",
+          "technologies": "React, Redux, Node, MongoDB, Angular, Python, Grav",
           "details": [
             "Développement d'une interface de bot de questions/réponses connectée à une API rest.",
             "Développements divers sur les différents projets de l'entreprise."
@@ -79,7 +79,7 @@
           "date": "2016, 3 mois",
           "type": "Stage",
           "location": "Paris",
-          "technologies": "AngularJS, Java, Vert.x, MongoDB",
+          "technologies": "Angular, Java, Vert.x, MongoDB",
           "details": [
             "Développement de fonctionnalités sur le Dashboard et migration vers le dashboard V2."
           ]
