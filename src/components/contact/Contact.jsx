@@ -14,8 +14,8 @@ export default function Contact() {
   const [items] = useState([
     { icon: <MaterialIcon>mail</MaterialIcon>, text: t('contact.email') },
     { icon: <MaterialIcon>phone</MaterialIcon>, text: t('contact.phone') },
-    { icon: <GithubIconSvg />, text: t('contact.linkedin') },
-    { icon: <LinkedinIconSvg />, text: t('contact.github') },
+    { icon: <LinkedinIconSvg />, text: t('contact.linkedin') },
+    { icon: <GithubIconSvg />, text: t('contact.github') },
   ]);
 
   return (
