@@ -4,6 +4,7 @@ import { SectionHeader } from 'components/common/headers.styled';
 
 
 export const RESUME_CONTAINER_ID = 'resume-container';
+export const RESUME_LEFT_MENU_ID = 'resume-left-menu';
 
 export const MainContainer = styled.div.attrs({
   id: RESUME_CONTAINER_ID,
@@ -18,11 +19,13 @@ export const MainContainer = styled.div.attrs({
   overflow: hidden;
   
   ${Container} ~ ${Container} {
-    padding-top: ${({ theme }) => theme.defaultSpacing };
+    padding-top: ${({ theme }) => theme.defaultSpacing};
   }
 `;
 
-export const LeftContainer = styled.div`
+export const LeftContainer = styled.div.attrs({
+  id: RESUME_LEFT_MENU_ID,
+})`
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -33,6 +36,27 @@ export const LeftContainer = styled.div`
   
   ${SectionHeader} {
     color: ${({ theme }) => theme.darkBackgroundTitleColor};
+  }
+
+  @media print {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: ${({ theme }) => theme.sidebarPrintWidth};
+    
+    &::before {
+      content: "";
+      position: fixed;
+      top: 100%;
+      left: 0;
+      bottom: 0;
+      height: 100vh;
+      width: ${({ theme }) => theme.sidebarPrintWidth};
+      z-index: 2;
+      background: ${({ theme }) => theme.darkBackgroundColor};
+      -webkit-print-color-adjust: exact;
+    }
   }
 `;
 
@@ -45,5 +69,9 @@ export const RightContainer = styled.div`
 
   ${SectionHeader} {
     color: ${({ theme }) => theme.titleColor};
+  }
+  
+  @media print {
+    padding-left: calc(${({ theme }) => theme.sidebarPrintWidth} + ${({ theme }) => theme.containerSpacing});
   }
 `;

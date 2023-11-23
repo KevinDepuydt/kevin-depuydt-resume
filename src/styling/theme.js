@@ -7,6 +7,7 @@ const theme = {
   profilePhotoWidth: '80%',
   primaryColor: '#29B365', // '#0061FF',
   secondaryColor: '#29B365',
+  sidebarPrintWidth: '33%',
   titleColor: '#000',
   textColor: '#333',
   darkBackgroundColor: '#333',

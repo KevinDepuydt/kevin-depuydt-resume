@@ -20,10 +20,10 @@ export default function ProfessionalExperiences() {
   return (
     <Container>
       <SectionHeader>{t('professional.experiences.title')}</SectionHeader>
-      {items.map((item, index) => (
+      {items.filter((item) => !!item.show).map((item, index) => (
         <Item key={`professional-experiences-item-${index}`}>
           <ItemGroup>
-            <ItemTitle>{item.title}</ItemTitle>
+            <ItemTitle>{item.title} - {item.company}</ItemTitle>
           </ItemGroup>
           <ItemGroup>
             <ItemDate>{item.date}</ItemDate> | <ItemType>{item.type}</ItemType> | <ItemLocation>{item.location}</ItemLocation>

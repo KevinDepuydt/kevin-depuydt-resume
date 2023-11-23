@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { RESUME_CONTAINER_ID } from 'components/wrapper/Wrapper.styled';
+import { RESUME_CONTAINER_ID, RESUME_LEFT_MENU_ID } from 'components/wrapper/Wrapper.styled';
 
 // font-family: 'Noto Serif', serif; 400/700
 // font-family: 'Roboto Serif', serif; 400/600
@@ -36,21 +36,17 @@ export const GlobalStyles = createGlobalStyle`
     html, body {
       padding: 0;
       margin: 0;
-      width: ${({ theme }) => theme.A4PageWidth};
-      min-height: ${({ theme }) => theme.A4PageHeight};
     }
-    
+
     #root {
       margin: 0;
       padding: 0;
       border: initial;
       border-radius: initial;
       width: ${({ theme }) => theme.A4PageWidth};
-      height: ${({ theme }) => theme.A4PageHeight};
-      min-height: initial;
+      min-height: ${({ theme }) => theme.A4PageHeight};
       box-shadow: initial;
       background: initial;
-      page-break-after: always;
 
       #${RESUME_CONTAINER_ID} {
         box-shadow: none;

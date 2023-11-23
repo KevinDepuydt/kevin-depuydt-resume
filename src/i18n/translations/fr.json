@@ -47,7 +47,42 @@
       "title": "Expérience professionnelle",
       "list": [
         {
-          "title": "Développeur web chez Botfuel",
+          "title": "Développeur Front-end",
+          "company": "Axiome Solution",
+          "date": "09/2023 - 11/2023",
+          "type": "Freelance",
+          "location": "Bidart, France",
+          "technologies": "TypeScript, React, SPFx, Gulp",
+          "details": [
+            "Développement d'une interface de gestion de processus en Drag & Drop dans Microsoft SharePoint Online.",
+            "Représentation et édition de processus sous forme de diagramme.",
+            "Modification d'un processus en y ajoutant des activités de différents types.",
+            "Gestion des connexions entre les différentes activités.",
+            "Gestion des éléments métier rattachés à ces activités (documents, roles, produits, etc)."
+          ],
+          "show": true
+        },
+        {
+          "title": "Développeur Full-Stack",
+          "company": "Imento",
+          "date": "07/2023 - 08/2023",
+          "type": "Freelance",
+          "location": "Télétravail",
+          "technologies": "JavaScript, TypeScript, React, Axios, Material UI, Node, Express.js, SQL, Stripe",
+          "details": [
+            "Refonte de l'interface selon les nouvelles maquettes.",
+            "Intégration de la partie payante de l'application avec Stripe.",
+            "Possibilité de télécharger du contenu en drag & drop.",
+            "Possibilité de modifier un contenu téléchargé pour y ajouter du texte, de régler le volume ainsi que sélectionner une partie pour les vidéos.",
+            "Mise en place de l'envoie automatisé d'emails de rappel aux différentes étapes d'un projet.",
+            "Génération d'un PDF à imprimer contenant un QR Code permettant d'accéder et de participer à un projet.",
+            "Mise en place d'un service de téléchargement de fichier."
+          ],
+          "show": true
+        },
+        {
+          "title": "Développeur web",
+          "company": "Botfuel",
           "date": "08/2017 - 10/2022",
           "type": "CDI",
           "location": "Paris",
@@ -60,11 +95,13 @@
             "Maintien et traduction du site web de l'entreprise.",
             "Développement de fonctionnalités et maintien d'un projet de chatbot client.",
             "Développement d'un proxy en Node.js permettant l'utilisation publique, sécurisée et unifiée des différentes API de l'entreprise.",
-            "Développement de modules intégrant la solution de support client de l'entreprise sur les sites web Magento, Wordpress et Shopify"
-          ]
+            "Développement de modules intégrant la solution de support client de l'entreprise sur les sites web Magento, Wordpress et Shopify."
+          ],
+          "show": true
         },
         {
-          "title": "Dévelopeur web chez Botfuel",
+          "title": "Développeur web",
+          "company": "Botfuel",
           "date": "2017, 6 mois",
           "type": "Stage de fin d'étude",
           "location": "Paris",
@@ -72,37 +109,44 @@
           "details": [
             "Développement d'une interface de bot de questions/réponses connectée à une API rest.",
             "Développements divers sur les différents projets de l'entreprise."
-          ]
+          ],
+          "show": true
         },
         {
-          "title": "Développeur web chez Coursierprivé.com",
+          "title": "Développeur web",
+          "company": "Coursierprivé.com",
           "date": "2016, 3 mois",
           "type": "Stage",
           "location": "Paris",
           "technologies": "Angular, Java, Vert.x, MongoDB",
           "details": [
             "Développement de fonctionnalités sur le Dashboard et migration vers le dashboard V2."
-          ]
+          ],
+          "show": true
         },
         {
-          "title": "Développeur web chez Webcentric",
+          "title": "Développeur web",
+          "company": "Webcentric",
           "date": "2015, 4 mois",
           "type": "Stage",
           "location": "Paris",
           "technologies": "PHP, MySQL, POO, JS, Ajax, DoT.js",
           "details": [
             "Résolution de bugs et développement de fonctionnalités sur la solution de maintenance informatique FanaticalHelp."
-          ]
+          ],
+          "show": true
         },
         {
-          "title": "Missions de développement web",
+          "title": "Développeur web",
+          "company": "Freelance",
           "date": "2014-2015",
           "type": "Freelance",
           "location": "Paris",
           "technologies": "PHP, MySQL, Wordpress, Symfony, JS, JQuery et Ajax",
           "details": [
             "Développements sur 6 projets de site web."
-          ]
+          ],
+          "show": true
         }
       ]
     }

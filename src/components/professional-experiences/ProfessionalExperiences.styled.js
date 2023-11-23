@@ -3,8 +3,12 @@ import { secondaryInformationCss } from 'components/common/texts.styled';
 
 
 export const Item = styled.div`
-  margin-top: 1rem;
+  padding-top: 1rem;
   color: ${({ theme }) => theme.textColor};
+  
+  @media print {
+    break-inside: avoid;
+  }
 `;
 
 export const ItemGroup = styled.div`

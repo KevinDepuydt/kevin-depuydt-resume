@@ -47,7 +47,42 @@
       "title": "Professional experience",
       "list": [
         {
-          "title": "Web developer at Botfuel",
+          "title": "Front-end developer",
+          "company": "Axiome Solution",
+          "date": "09/2023 - 11/2023",
+          "type": "Freelance",
+          "location": "Bidart, France",
+          "technologies": "TypeScript, React, SPFx, Gulp",
+          "details": [
+            "Development of a Drag & Drop process management interface in Microsoft SharePoint Online.",
+            "Display and edit processes represented as a diagram.",
+            "Modify a process by adding activities of different types.",
+            "Manage connections between different activities.",
+            "Management of business elements linked to these activities (documents, roles, products, etc.)."
+          ],
+          "show": true
+        },
+        {
+          "title": "Full-Stack developer",
+          "company": "Imento",
+          "date": "07/2023 - 08/2023",
+          "type": "Freelance",
+          "location": "Remote",
+          "technologies": "JavaScript, TypeScript, React, Axios, Material UI, Node, Express.js, SQL, Stripe",
+          "details": [
+            "Redesign of the app according to the new mock-ups.",
+            "Integration of the paid part of the application with Stripe.",
+            "Drag & drop content downloads.",
+            "Edit uploaded content by adding text, adjusting volume and selecting a part for videos.",
+            "Set up automated email reminders at different times in a project.",
+            "Generate a printable PDF containing a QR Code to access and participate to a project.",
+            "Setting up a file download service."
+          ],
+          "show": true
+        },
+        {
+          "title": "Web developer",
+          "company": "Botfuel",
           "date": "08/2017 - 11/2022",
           "type": "Permanent contract",
           "location": "Paris",
@@ -61,47 +96,56 @@
             "Development of features and maintenance of a chatbot client project.",
             "Development of a proxy allowing the public, secure and unified use of the different APIs of the company.",
             "Development of modules integrating the company customer support solution on Magento, Wordpress and Shopify websites."
-          ]
+          ],
+          "show": true
         },
         {
-          "title": "Web developer at Botfuel",
+          "title": "Web developer",
+          "company": "Botfuel",
           "date": "2017, 6 months",
           "type": "End of study internship",
           "location": "Paris",
           "technologies": "React, Redux, Node, MongoDB, Angular, Python, Grav",
           "details": [
             "Development of a question/answer bot interface connected to an API rest, with React and Redux."
-          ]
+          ],
+          "show": true
         },
         {
-          "title": "Web developer at Coursierprivé.com",
+          "title": "Web developer",
+          "company": "Coursierprivé.com",
           "date": "2016, 3 months",
           "type": "Internship",
           "location": "Paris",
           "technologies": "AngularJS, Java, Vert.x, MongoDB",
           "details": [
             "Development of features on the Dashboard and migration to the V2 dashboard."
-          ]
+          ],
+          "show": true
         },
         {
-          "title": "Web developer at Webcentric",
+          "title": "Web developer",
+          "company": "Webcentric",
           "date": "2015, 4 months",
           "type": "Internship",
           "location": "Paris",
           "technologies": "PHP, MySQL, POO, JS, Ajax, DoT.js",
           "details": [
             "Bug fixing and feature development on the computer maintenance solution FanaticalHelp."
-          ]
+          ],
+          "show": true
         },
         {
-          "title": "Web development projects",
+          "title": "Web development",
+          "company": "Freelance",
           "date": "2014-2015",
           "type": "Freelance",
           "location": "Paris",
           "technologies": "PHP, MySQL, Wordpress, Symfony, JS, JQuery et Ajax",
           "details": [
             "Participation in the development of 6 website projects."
-          ]
+          ],
+          "show": true
         }
       ]
     }
