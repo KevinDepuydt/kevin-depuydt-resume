@@ -9,12 +9,26 @@
   "skills": {
     "title": "Compétences",
     "list": [
-      "Maîtrise de JavaScript, TypeScript, React, Node, HTML5/CSS3, Redux, GraphQL, Socket.io, MongoDB, Redis, Express, Python et I18Next",
-      "Bases avec Angular, Vue, les Systèmes Unix, Golang, PHP, Ruby, Java, Android, Swift et C",
+      "Expert JavaScript & TypeScript",
+      "Front-end : React, Next.js, HTML5/CSS3, Tailwind, CSS-in-JS, Redux",
+      "Back-end : Node, Express, MongoDB, GraphQL, Redis, Socket.io, Python",
+      "Bundler : Webpack, SWC, Bun",
       "Programmation fonctionnelle, Programmation Orientée Object",
-      "Pair programming et revues de code",
-      "Méthodologies Agile et SCRUM",
-      "JetBrains IDEs, Atom, Git & Github, Webpack, npm, Postman"
+      "Pair programming, revues de code",
+      "Méthodologies Agile, SCRUM",
+      "JetBrains IDEs, Atom, Git & Github, npm, Postman"
+    ]
+  },
+  "soft-skills": {
+    "title": "Soft skills",
+    "list": [
+      "Autonome",
+      "Proactif",
+      "Esprit critique",
+      "Polyvalent",
+      "Flexible",
+      "Esprit d'équipe",
+      "Bienveillant"
     ]
   },
   "languages": {

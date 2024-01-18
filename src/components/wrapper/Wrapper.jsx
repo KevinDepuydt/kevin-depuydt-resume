@@ -9,6 +9,7 @@ import ProfileImage from 'components/profile-image/ProfileImage';
 import ProfileInformations from 'components/profile-informations/ProfileInformations';
 // import References from 'components/references/References';
 import Skills from 'components/skills/Skills';
+import SoftSkills from '../soft-skills/SoftSkills';
 import { MainContainer, LeftContainer, RightContainer } from './Wrapper.styled';
 
 
@@ -19,6 +20,7 @@ export default function Wrapper() {
         <ProfileImage />
         <Contact />
         <Skills />
+        <SoftSkills />
         <Languages />
         <Hobbies />
       </LeftContainer>
