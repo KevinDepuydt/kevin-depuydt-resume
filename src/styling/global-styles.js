@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { RESUME_CONTAINER_ID, RESUME_LEFT_MENU_ID } from 'components/wrapper/Wrapper.styled';
+import { RESUME_CONTAINER_ID } from 'components/wrapper/Wrapper.styled';
 
 // font-family: 'Noto Serif', serif; 400/700
 // font-family: 'Roboto Serif', serif; 400/600

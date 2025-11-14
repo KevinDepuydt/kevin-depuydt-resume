@@ -7,10 +7,9 @@ import {
   Item,
   ItemGroup,
   ItemTitle,
-  ItemType,
-  ItemDate,
-  ItemLocation,
+  ItemContext,
   ItemTechnologies,
+  ItemSecondaryText,
 } from 'components/professional-experiences/ProfessionalExperiences.styled';
 
 
@@ -26,11 +25,18 @@ export default function ProfessionalExperiences() {
             <ItemTitle>{item.title} - {item.company}</ItemTitle>
           </ItemGroup>
           <ItemGroup>
-            <ItemDate>{item.date}</ItemDate> | <ItemType>{item.type}</ItemType> | <ItemLocation>{item.location}</ItemLocation>
+            <ItemSecondaryText>{item.date}</ItemSecondaryText> | <ItemSecondaryText>{item.type}</ItemSecondaryText> | <ItemSecondaryText>{item.location}</ItemSecondaryText>
           </ItemGroup>
           <ItemGroup>
             <ItemTechnologies>{item.technologies}</ItemTechnologies>
           </ItemGroup>
+          {item.context && (
+            <ItemGroup>
+              <ItemContext>
+                {item.context}
+              </ItemContext>
+            </ItemGroup>
+          )}
           <ItemGroup>
             <List>
               {item.details.map((detailsItem, detailsItemIndex) => (

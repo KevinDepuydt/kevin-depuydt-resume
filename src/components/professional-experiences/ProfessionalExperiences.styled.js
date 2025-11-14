@@ -22,16 +22,14 @@ export const ItemTitle = styled.span`
   font-size: 1.1rem;
 `;
 
-export const ItemDate = styled.span`
+export const ItemSecondaryText = styled.span`
   ${secondaryInformationCss};
 `;
 
-export const ItemLocation = styled.span`
-  ${secondaryInformationCss};
-`;
-
-export const ItemType = styled.span`
-  ${secondaryInformationCss};
+export const ItemContext = styled.span`
+  display: block;
+  padding-top: 0.5rem;
+  font-family: 'Noto Serif', serif;
 `;
 
 export const ItemTechnologies = styled.span`

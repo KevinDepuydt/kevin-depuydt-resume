@@ -10,7 +10,7 @@
     "title": "Skills",
     "list": [
       "Expert JavaScript & TypeScript",
-      "Front-end: React, Next.js, HTML5/CSS3, Tailwind, CSS-in-JS, Redux",
+      "Front-end: React, Next.js, HTML5/CSS3, FluentUI, Tailwind, CSS-in-JS, Redux",
       "Back-end: Node, Express, MongoDB, GraphQL, Redis, Socket.io, Python",
       "Bundler: Webpack, SWC, Bun",
       "Functional programming, Object Oriented Programming",
@@ -43,51 +43,63 @@
     "list": [
       "Badminton",
       "Hiking",
-      "Surf",
-      "Cooking",
-      "Trading and Crypto currencies"
+      "Cooking"
     ]
   },
   "profile": {
     "name": "Kevin Depuydt",
-    "job": "Web Developer"
+    "job": "Front-end Engineer"
   },
   "professional": {
     "profile": {
       "title": "Professional profile",
-      "introduction": "Curious and passionate Web Developer with more than {{years}} years of experience in the design and development of web projects. Adept of functional programming and the KISS principle, I like the code to be well structured, clear and commented. Reactive and with a strong team spirit, my help is often appreciated to solve problems and to take on new challenges."
+      "introduction": "Curious and passionate Web Developer with {{years}} years of experience in designing and developing web projects. Adept of clean code, I like the code to be clean, optimized and efficient. Reactive, caring and with a strong team spirit, my help is particularly appreciated to solve problems and to take on new challenges."
     },
     "experiences": {
       "title": "Professional experience",
       "list": [
         {
+          "title": "Front-end engineer",
+          "company": "Axiome Solution",
+          "date": "07/2024 - Today",
+          "type": "Permanent contract",
+          "location": "Bidart, France",
+          "technologies": "TypeScript, React, SPFx, D3.js, Gulp, Service Azure",
+          "context": "Web development in SharePoint Online and the MO365 ecosystem.",
+          "details": [
+            "Design, architecture, and development of custom software components (WebParts) in SharePoint to meet the diverse needs of prestigious clients (Thales, Renault, etc)."
+          ],
+          "show": true
+        },
+        {
           "title": "Front-end developer",
           "company": "Axiome Solution",
-          "date": "09/2023 - 11/2023",
+          "date": "09/2023 - 12/2023",
           "type": "Freelance",
           "location": "Bidart, France",
           "technologies": "TypeScript, React, SPFx, Gulp",
+          "context": "Development of a diagrammatic process editor in Microsoft SharePoint Online.",
           "details": [
-            "Development of a Drag & Drop process management interface in Microsoft SharePoint Online.",
-            "Display and edit processes represented as a diagram.",
+            "Design, architecture and development of the process editor component according to specifications.",
             "Modify a process by adding activities of different types.",
-            "Manage connections between different activities.",
-            "Management of business elements linked to these activities (documents, roles, products, etc.)."
+            "Management of connections between the activities using Drag & Drop.",
+            "Management of business elements linked to these activities (documents, roles, products, etc.) using Drag & Drop."
           ],
           "show": true
         },
         {
           "title": "Full-Stack developer",
           "company": "Imento",
-          "date": "07/2023 - 08/2023",
+          "date": "06/2023 - 09/2023",
           "type": "Freelance",
           "location": "Remote",
           "technologies": "JavaScript, TypeScript, React, Axios, Material UI, Node, Express.js, SQL, Stripe",
+          "context": "Integration of the new design and new features on the Mémorable automated video editing web application.",
           "details": [
-            "Redesign of the app according to the new mock-ups.",
+            "Redesign of the app according to the new figma mock-ups.",
             "Integration of the paid part of the application with Stripe.",
             "Drag & drop content downloads.",
-            "Edit uploaded content by adding text, adjusting volume and selecting a part for videos.",
+            "Edit uploaded content by adding text, set the volume and shorten for videos.",
             "Set up automated email reminders at different times in a project.",
             "Generate a printable PDF containing a QR Code to access and participate to a project.",
             "Setting up a file download service."
@@ -99,10 +111,11 @@
           "company": "Botfuel",
           "date": "08/2017 - 11/2022",
           "type": "Permanent contract",
-          "location": "Paris",
+          "location": "Paris, France",
           "technologies": "JavaScript, TypeScript, React, Node, MongoDB, Redis, Socket.io, Axios, Styled Components, CoffeeScript, Python, Gatsby, PHP, Grav",
+          "context": "Development of an open source chatbot framework, and an ecosystem of applications for chatbots dedicated to customer support and e-commerce.",
           "details": [
-            "Development and maintenance of an ecosystem of customer support applications, including a back office using an API rest, an intelligent chat module, a dynamic FAQ display module and a server for the chat and FAQ module.",
+            "Development and maintenance of an applications ecosystem, including a back office using an API rest, an intelligent chat widget, a dynamic FAQ widget and a server for the widgets.",
             "Deployment of various applications on Heroku and AWS using CI/CD pipelines.",
             "Design and development of Botfuel Dialog, an open source SDK for developing chatbots.",
             "Implementation of the Botfuel Dialog SDK as a web application usable by everyone.",
@@ -116,12 +129,31 @@
         {
           "title": "Web developer",
           "company": "Botfuel",
-          "date": "2017, 6 months",
+          "date": "02/2017 - 08/2017",
           "type": "End of study internship",
-          "location": "Paris",
+          "location": "Paris, France",
           "technologies": "React, Redux, Node, MongoDB, Angular, Python, Grav",
+          "context": "3rd internship in web development as part of my studies at SUP'Internet.",
           "details": [
             "Development of a question/answer bot interface connected to an API rest, with React and Redux."
+          ],
+          "show": false
+        },
+        {
+          "title": "Co-Founder & CTO",
+          "company": "Wouvy",
+          "date": "06/2016 - 06/2019",
+          "type": "Entrepreneurship project",
+          "location": "Paris, France",
+          "technologies": "React, Node, MongoDB, Express, HTML5, CSS3",
+          "context": "Development of a solution to improve interactions during conferences and a project management solution.",
+          "details": [
+            "Validation of ideas and their technical feasibility.",
+            "Writing technical specifications.",
+            "Design and architecture of the projects.",
+            "Development and maintenance of the projects with the MERN stack.",
+            "Writing tests",
+            "Setting up the CI/CD pipeline."
           ],
           "show": true
         },
@@ -130,36 +162,39 @@
           "company": "Coursierprivé.com",
           "date": "2016, 3 months",
           "type": "Internship",
-          "location": "Paris",
+          "location": "Paris, France",
           "technologies": "AngularJS, Java, Vert.x, MongoDB",
+          "context": "2nd internship in web development as part of my studies at SUP'Internet.",
           "details": [
             "Development of features on the Dashboard and migration to the V2 dashboard."
           ],
-          "show": true
+          "show": false
         },
         {
           "title": "Web developer",
           "company": "Webcentric",
           "date": "2015, 4 months",
           "type": "Internship",
-          "location": "Paris",
+          "location": "Paris, France",
           "technologies": "PHP, MySQL, POO, JS, Ajax, DoT.js",
+          "context": "1st internship in web development as part of my studies at SUP'Internet.",
           "details": [
             "Bug fixing and feature development on the computer maintenance solution FanaticalHelp."
           ],
-          "show": true
+          "show": false
         },
         {
           "title": "Web development",
           "company": "Freelance",
           "date": "2014-2015",
           "type": "Freelance",
-          "location": "Paris",
+          "location": "Paris, France",
           "technologies": "PHP, MySQL, Wordpress, Symfony, JS, JQuery et Ajax",
+          "context": "Web development missions to pay for my studies",
           "details": [
-            "Participation in the development of 6 website projects."
+            "Development on several websites for small companies (flower shop, insurance, magician, ...)."
           ],
-          "show": true
+          "show": false
         }
       ]
     }
@@ -172,14 +207,14 @@
         "diploma": "Bachelor in Web Project Management",
         "diplomaDetails": "web development speciality, with highest honor",
         "school": "SUP'Internet",
-        "location": "Paris"
+        "location": "Paris, France"
       },
       {
         "date": "2013",
         "diploma": "French secondary school diploma in sciences",
         "diplomaDetails": "computer science option",
         "school": "J.Rostand high school",
-        "location": "Chantilly"
+        "location": "Chantilly, France"
       }
     ]
   },
@@ -187,8 +222,18 @@
     "title": "References",
     "list": [
       {
+        "name": "Frédéric CAMJUZAN",
+        "job": "Co-founder at Axiome Solution",
+        "contact": "frederic.camjuzan@axiome-solution.fr"
+      },
+      {
+        "name": "Nicolas LOUVET",
+        "job": "Co-founder at Axiome Solution",
+        "contact": "nicolas.louvet@axiome-solution.fr"
+      },
+      {
         "name": "Yan GEORGET",
-        "job": "Co-fondateur and CTO at Botfuel",
+        "job": "Co-founder and CTO at Botfuel",
         "contact": "yan@botfuel.io"
       },
       {

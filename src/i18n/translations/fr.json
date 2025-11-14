@@ -10,13 +10,13 @@
     "title": "Compétences",
     "list": [
       "Expert JavaScript & TypeScript",
-      "Front-end : React, Next.js, HTML5/CSS3, Tailwind, CSS-in-JS, Redux",
+      "Front-end : React, SPFx, Next.js, HTML5/CSS3, FluentUI, Tailwind, CSS-in-JS, Redux",
       "Back-end : Node, Express, MongoDB, GraphQL, Redis, Socket.io, Python",
       "Bundler : Webpack, SWC, Bun",
       "Programmation fonctionnelle, Programmation Orientée Object",
       "Pair programming, revues de code",
       "Méthodologies Agile, SCRUM",
-      "JetBrains IDEs, Atom, Git & Github, npm, Postman"
+      "JetBrains IDEs, Atom, Git, npm, Postman"
     ]
   },
   "soft-skills": {
@@ -43,54 +43,66 @@
     "list": [
       "Badminton",
       "Randonnée",
-      "Surf",
-      "Cuisine",
-      "Trading et Crypto monnaies"
+      "Cuisine"
     ]
   },
   "profile": {
     "name": "Kevin Depuydt",
-    "job": "Développeur Web"
+    "job": "Ingénieur Front-End"
   },
   "professional": {
     "profile": {
       "title": "Profil professionnel",
-      "introduction": "Développeur curieux et passionné par les technologies du web avec plus de {{years}} ans d'expérience dans la conception et le développement de projets web. Adepte de la programmation fonctionnelle et du principe KISS, j'aime que le code soit bien structuré, clair et commenté. Réactif et doté d'un fort esprit d'équipe, mon aide est souvent appréciée pour résoudre des problèmes et relever de nouveaux challenges."
+      "introduction": "Développeur curieux et passionné par internet et les nouvelles technologies avec {{years}} ans d'expérience dans la conception et le développement de projets web. Adepte du clean code et de l'éco-conception, j'aime que le code soit propre, optimisé et performant. Réactif, bienveillant et doté d'un fort esprit d'équipe, mon aide est particulièrement appréciée pour résoudre les problèmes et relever de nouveaux challenges."
     },
     "experiences": {
       "title": "Expérience professionnelle",
       "list": [
         {
+          "title": "Ingénieur Front-end",
+          "company": "Axiome Solution",
+          "date": "07/2024 - Aujourd'hui",
+          "type": "CDI",
+          "location": "Bidart, France",
+          "technologies": "TypeScript, React, SPFx, D3.js, Gulp, Service Azure",
+          "context": "Développement web dans SharePoint Online et l'écosystème MO365.",
+          "details": [
+            "Conception, architecture et développement de brique logicielle (WebPart) sur-mesure dans SharePoint pour répondre aux besoins variés de prestigieux clients (Thales, Renault, etc)."
+          ],
+          "show": true
+        },
+        {
           "title": "Développeur Front-end",
           "company": "Axiome Solution",
-          "date": "09/2023 - 11/2023",
+          "date": "09/2023 - 12/2023",
           "type": "Freelance",
           "location": "Bidart, France",
           "technologies": "TypeScript, React, SPFx, Gulp",
+          "context": "Développement d'un éditeur de processus représenté sous forme de diagramme dans Microsoft SharePoint Online.",
           "details": [
-            "Développement d'une interface de gestion de processus en Drag & Drop dans Microsoft SharePoint Online.",
-            "Représentation et édition de processus sous forme de diagramme.",
+            "Conception, architecture et développement du composant de gestion de processus selon le cahier des charges.",
             "Modification d'un processus en y ajoutant des activités de différents types.",
-            "Gestion des connexions entre les différentes activités.",
-            "Gestion des éléments métier rattachés à ces activités (documents, roles, produits, etc)."
+            "Gestion des connexions entre les différentes activités en Drag & Drop.",
+            "Gestion des éléments métier attachés à ces activités en Drag & Drop."
           ],
           "show": true
         },
         {
           "title": "Développeur Full-Stack",
           "company": "Imento",
-          "date": "07/2023 - 08/2023",
+          "date": "06/2023 - 09/2023",
           "type": "Freelance",
           "location": "Télétravail",
           "technologies": "JavaScript, TypeScript, React, Axios, Material UI, Node, Express.js, SQL, Stripe",
+          "context": "Intégration du nouveau design et de nouvelles fonctionnalités sur l'application de montage vidéo automatisé Mémorable.",
           "details": [
-            "Refonte de l'interface selon les nouvelles maquettes.",
+            "Intégration du nouveau design selon les maquettes Figma.",
             "Intégration de la partie payante de l'application avec Stripe.",
-            "Possibilité de télécharger du contenu en drag & drop.",
-            "Possibilité de modifier un contenu téléchargé pour y ajouter du texte, de régler le volume ainsi que sélectionner une partie pour les vidéos.",
+            "Ajout du téléchargement de contenu en drag & drop.",
+            "Ajout de la modification d'un contenu pour y ajouter du texte, régler le volume et raccourcir pour les vidéos.",
             "Mise en place de l'envoie automatisé d'emails de rappel aux différentes étapes d'un projet.",
             "Génération d'un PDF à imprimer contenant un QR Code permettant d'accéder et de participer à un projet.",
-            "Mise en place d'un service de téléchargement de fichier."
+            "Conception et développement d'un service de téléchargement de fichier."
           ],
           "show": true
         },
@@ -101,13 +113,13 @@
           "type": "CDI",
           "location": "Paris",
           "technologies": "JavaScript, TypeScript, React, Node, MongoDB, Redis, Socket.io, Axios, Styled Components, CoffeeScript, Python, Gatsby, PHP, Grav",
+          "context": "Développement d'un framework de chatbot open source, et d'un écosystème d'applications permettant de configurer des chatbots dédiés au support client et au e-commerce.",
           "details": [
-            "Développement et maintient d'un écosystème d'applications de support client comprenant un backoffice utilisant une API rest, un module de chat intelligent, un module d'affichage de FAQ dynamique et un serveur dédié au module de chat et de FAQ.",
+            "Développement et maintient d'un écosystème d'applications comprenant un backoffice utilisant une API REST, un module de chat intelligent, un module d'affichage de FAQ dynamique et un serveur dédié au module de chat et de FAQ.",
             "Déploiement des différentes applications via des pipelines de CI/CD sur Heroku et AWS.",
-            "Conception et développement de Botfuel Dialog, un SDK open source de développement de chatbots.",
-            "Implémentation du SDK Botfuel Dialog sous forme d'application web utilisable par le grand public.",
+            "Conception et développement de Botfuel Dialog, un framework open source de chatbots.",
             "Maintien et traduction du site web de l'entreprise.",
-            "Développement de fonctionnalités et maintien d'un projet de chatbot client.",
+            "Développement et gestion d'un projet de chatbot client.",
             "Développement d'un proxy en Node.js permettant l'utilisation publique, sécurisée et unifiée des différentes API de l'entreprise.",
             "Développement de modules intégrant la solution de support client de l'entreprise sur les sites web Magento, Wordpress et Shopify."
           ],
@@ -116,13 +128,33 @@
         {
           "title": "Développeur web",
           "company": "Botfuel",
-          "date": "2017, 6 mois",
+          "date": "02/2017 - 08/2017",
           "type": "Stage de fin d'étude",
           "location": "Paris",
           "technologies": "React, Redux, Node, MongoDB, Angular, Python, Grav",
+          "context": "3e stage en développement web dans le cadre de ma formation à SUP'Internet.",
           "details": [
+            "Travaux de recherche et expérimentations sur les chatbots.",
             "Développement d'une interface de bot de questions/réponses connectée à une API rest.",
             "Développements divers sur les différents projets de l'entreprise."
+          ],
+          "show": false
+        },
+        {
+          "title": "Co-Founder & CTO",
+          "company": "Wouvy",
+          "date": "06/2016 - 06/2019",
+          "type": "Projet d'entreprenariat",
+          "location": "Paris",
+          "technologies": "React, Node, MongoDB, Express, HTML5, CSS3",
+          "context": "Développement d'une solution améliorant les interactions dans les conférences physique et d'une solution de gestion de projet.",
+          "details": [
+            "Validation des idées et leur faisabilité technique.",
+            "Écriture des spécifications techniques.",
+            "Conception de l'architecture des différents projets.",
+            "Développement et maintien des différents projets avec la Stack MERN.",
+            "Écriture des tests",
+            "Mise en place du pipeline CI/CD"
           ],
           "show": true
         },
@@ -133,10 +165,12 @@
           "type": "Stage",
           "location": "Paris",
           "technologies": "Angular, Java, Vert.x, MongoDB",
+          "context": "2e stage en développement web dans le cadre de ma formation à SUP'Internet.",
           "details": [
-            "Développement de fonctionnalités sur le Dashboard et migration vers le dashboard V2."
+            "Développement de fonctionnalités sur le Dashboard et migration vers le dashboard V2.",
+            "Résolution de bug"
           ],
-          "show": true
+          "show": false
         },
         {
           "title": "Développeur web",
@@ -145,10 +179,11 @@
           "type": "Stage",
           "location": "Paris",
           "technologies": "PHP, MySQL, POO, JS, Ajax, DoT.js",
+          "context": "1er stage en développement web dans le cadre de ma formation à SUP'Internet.",
           "details": [
             "Résolution de bugs et développement de fonctionnalités sur la solution de maintenance informatique FanaticalHelp."
           ],
-          "show": true
+          "show": false
         },
         {
           "title": "Développeur web",
@@ -157,10 +192,11 @@
           "type": "Freelance",
           "location": "Paris",
           "technologies": "PHP, MySQL, Wordpress, Symfony, JS, JQuery et Ajax",
+          "context": "Réalisation de diverses missions en développement web pour financer mes études.",
           "details": [
-            "Développements sur 6 projets de site web."
+            "Développements sur plusieurs sites web pour des PME (fleuriste, assurance, magicien, ...)."
           ],
-          "show": true
+          "show": false
         }
       ]
     }
@@ -187,6 +223,16 @@
   "references": {
     "title": "Réferences",
     "list": [
+      {
+        "name": "Frédéric CAMJUZAN",
+        "job": "Co-fondateur chez Axiome Solution",
+        "contact": "frederic.camjuzan@axiome-solution.fr"
+      },
+      {
+        "name": "Nicolas LOUVET",
+        "job": "Co-fondateur chez Axiome Solution",
+        "contact": "nicolas.louvet@axiome-solution.fr"
+      },
       {
         "name": "Yan GEORGET",
         "job": "Co-fondateur et CTO chez Botfuel",
