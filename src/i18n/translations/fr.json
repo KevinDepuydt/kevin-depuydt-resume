@@ -10,13 +10,14 @@
     "title": "Compétences",
     "list": [
       "Expert JavaScript & TypeScript",
-      "Front-end : React, SPFx, Next.js, HTML5/CSS3, FluentUI, Tailwind, CSS-in-JS, Redux",
-      "Back-end : Node, Express, MongoDB, GraphQL, Redis, Socket.io, Python",
-      "Bundler : Webpack, SWC, Bun",
-      "Programmation fonctionnelle, Programmation Orientée Object",
+      "Front-end : React, Next.js, HTML5/CSS3, a11y, i18n, FluentUI, Tailwind, Shadcn, MUI",
+      "Back-end : Node, Nest.js, Express, Fastify, SQL, NoSQL, GraphQL, Python",
+      "Agents IA, Context & Harness engineering, MCP, RAG, Skills",
+      "Bundler : Vite, Webpack, SWC, Bun",
+      "Programmation fonctionnelle, POO",
       "Pair programming, revues de code",
       "Méthodologies Agile, SCRUM",
-      "JetBrains IDEs, Atom, Git, npm, Postman"
+      "JetBrains IDEs, VSC, Git, npm, Postman"
     ]
   },
   "soft-skills": {
@@ -43,12 +44,13 @@
     "list": [
       "Badminton",
       "Randonnée",
-      "Cuisine"
+      "Cuisine",
+      "Expérimentations IA"
     ]
   },
   "profile": {
     "name": "Kevin Depuydt",
-    "job": "Ingénieur Front-End"
+    "job": "Développeur Front-End Senior"
   },
   "professional": {
     "profile": {
@@ -59,15 +61,15 @@
       "title": "Expérience professionnelle",
       "list": [
         {
-          "title": "Ingénieur Front-end",
+          "title": "Développeur Front-end Senior",
           "company": "Axiome Solution",
           "date": "07/2024 - Aujourd'hui",
           "type": "CDI",
           "location": "Bidart",
-          "technologies": "TypeScript, React, SPFx, D3.js, Gulp, Service Azure",
-          "context": "Développement web dans SharePoint Online et l'écosystème MO365.",
+          "technologies": "TypeScript, React, SPFx, SharePoint Online, services Azure, Frameworks UI, agents IA",
+          "context": "Développement web dans SharePoint Online et l'écosystème M365.",
           "details": [
-            "Conception, architecture et développement de brique logicielle (WebPart) sur-mesure dans SharePoint pour répondre aux besoins variés de prestigieux clients (Thales, Renault, etc)."
+            "Conception, architecture et développement d'application web et de composants sur-mesure pour SharePoint Online, afin de répondre aux besoins variés de grandes entreprises du secteur aéronautique et automobile."
           ],
           "show": true
         },

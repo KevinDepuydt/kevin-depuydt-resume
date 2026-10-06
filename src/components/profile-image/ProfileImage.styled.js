@@ -8,6 +8,6 @@ export const Image = styled.div`
   padding-bottom: ${({ theme }) => theme.profilePhotoWidth};
   border-radius: 50%;
   margin: 0 auto;
-  box-shadow: 0 0 0 5px ${({ theme }) => theme.secondaryColor};
+  box-shadow: 0 0 0 2px ${({ theme }) => theme.secondaryColor};
   // border: 5px solid ${({ theme }) => theme.secondaryColor};
 `;

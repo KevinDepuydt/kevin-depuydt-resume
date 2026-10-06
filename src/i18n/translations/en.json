@@ -9,14 +9,15 @@
   "skills": {
     "title": "Skills",
     "list": [
-      "Expert JavaScript & TypeScript",
-      "Front-end: React, Next.js, HTML5/CSS3, FluentUI, Tailwind, CSS-in-JS, Redux",
-      "Back-end: Node, Express, MongoDB, GraphQL, Redis, Socket.io, Python",
-      "Bundler: Webpack, SWC, Bun",
-      "Functional programming, Object Oriented Programming",
+      "React & TypeScript expert",
+      "Front-end: React, Next.js, HTML5/CSS3, a11y, i18n, FluentUI, Tailwind, Shadcn, MUI",
+      "Back-end: Node, Nest.js, Express, Fastify, SQL, NoSQL, GraphQL, Python",
+      "IA Agents, Context & Harness engineering, MCP, RAG, Skills",
+      "Bundler: Vite, Webpack, SWC, Bun",
+      "Functional programming, OOP",
       "Pair programming, code reviews",
       "Agile, SCRUM methodologies",
-      "JetBrains IDEs, Atom, Git & Github, npm, Postman"
+      "JetBrains IDEs, VSC, Git, npm, Postman"
     ]
   },
   "soft-skills": {
@@ -43,12 +44,13 @@
     "list": [
       "Badminton",
       "Hiking",
-      "Cooking"
+      "Cooking",
+      "IA experiments"
     ]
   },
   "profile": {
     "name": "Kevin Depuydt",
-    "job": "Front-end Engineer"
+    "job": "Senior Front-end Engineer"
   },
   "professional": {
     "profile": {
@@ -59,15 +61,15 @@
       "title": "Professional experience",
       "list": [
         {
-          "title": "Front-end engineer",
+          "title": "Senior Front-end engineer",
           "company": "Axiome Solution",
           "date": "07/2024 - Today",
           "type": "Permanent contract",
           "location": "Bidart, France",
-          "technologies": "TypeScript, React, SPFx, D3.js, Gulp, Service Azure",
-          "context": "Web development in SharePoint Online and the MO365 ecosystem.",
+          "technologies": "TypeScript, React, SPFx, SharePoint Online, Azure services, UI Frameworks, IA agents",
+          "context": "Web development in SharePoint Online and the M365 ecosystem.",
           "details": [
-            "Design, architecture, and development of custom software components (WebParts) in SharePoint to meet the diverse needs of prestigious clients (Thales, Renault, etc)."
+            "Design, architecture, and development of custom web applications and components for SharePoint Online to meet the diverse needs of large companies in the aerospace and automotive industries."
           ],
           "show": true
         },

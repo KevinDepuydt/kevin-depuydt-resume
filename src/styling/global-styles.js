@@ -55,6 +55,10 @@ export const GlobalStyles = createGlobalStyle`
       #language-selector {
         display: none;
       }
+      
+      #theme-selector {
+        display: none;
+      }
     }
   }
   

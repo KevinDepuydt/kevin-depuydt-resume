@@ -13,18 +13,18 @@ export const defaultTheme = {
   secondaryColor: '#29B365',
   titleColor: '#000',
   textColor: '#333',
-  darkBackgroundColor: '#333',
+  darkBackgroundColor: '#222',
   darkBackgroundTitleColor: '#fff',
   darkBackgroundTextColor: 'rgba(255, 255, 255, 0.7)',
 };
 
 export const axiomeTheme = {
   ...themeBase,
-  primaryColor: 'red', // '#0061FF',
-  secondaryColor: 'red',
-  titleColor: '#000',
-  textColor: '#333',
-  darkBackgroundColor: '#333',
+  primaryColor: '#ea690a', // '#e32521',
+  secondaryColor: '#ea690a',
+  titleColor: '#212020',
+  textColor: '#212020',
+  darkBackgroundColor: '#212020',
   darkBackgroundTitleColor: '#fff',
   darkBackgroundTextColor: 'rgba(255, 255, 255, 0.7)',
 };
