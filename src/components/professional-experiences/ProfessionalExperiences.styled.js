@@ -32,6 +32,13 @@ export const ItemContext = styled.span`
   font-family: 'Noto Serif', serif;
 `;
 
+export const ItemDescription = styled.p`
+  margin: 0;
+  padding-top: 0.5rem;
+  font-family: 'Noto Serif', serif;
+  text-align: justify;
+`;
+
 export const ItemTechnologies = styled.span`
   ${secondaryInformationCss};
   font-size: 0.9rem;

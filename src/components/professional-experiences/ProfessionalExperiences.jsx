@@ -8,6 +8,7 @@ import {
   ItemGroup,
   ItemTitle,
   ItemContext,
+  ItemDescription,
   ItemTechnologies,
   ItemSecondaryText,
 } from 'components/professional-experiences/ProfessionalExperiences.styled';
@@ -30,22 +31,30 @@ export default function ProfessionalExperiences() {
           <ItemGroup>
             <ItemTechnologies>{item.technologies}</ItemTechnologies>
           </ItemGroup>
-          {item.context && (
+          {item.description ? (
             <ItemGroup>
-              <ItemContext>
-                {item.context}
-              </ItemContext>
+              <ItemDescription>{item.description}</ItemDescription>
             </ItemGroup>
+          ) : (
+            <>
+              {item.context && (
+                <ItemGroup>
+                  <ItemContext>
+                    {item.context}
+                  </ItemContext>
+                </ItemGroup>
+              )}
+              <ItemGroup>
+                <List>
+                  {item.details.map((detailsItem, detailsItemIndex) => (
+                    <ListItem key={`professional-experiences-item-${index}-details-${detailsItemIndex}`}>
+                      {detailsItem}
+                    </ListItem>
+                  ))}
+                </List>
+              </ItemGroup>
+            </>
           )}
-          <ItemGroup>
-            <List>
-              {item.details.map((detailsItem, detailsItemIndex) => (
-                <ListItem key={`professional-experiences-item-${index}-details-${detailsItemIndex}`}>
-                  {detailsItem}
-                </ListItem>
-              ))}
-            </List>
-          </ItemGroup>
         </Item>
       ))}
     </Container>

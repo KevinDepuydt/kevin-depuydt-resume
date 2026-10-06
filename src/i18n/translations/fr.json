@@ -55,7 +55,7 @@
   "professional": {
     "profile": {
       "title": "Profil professionnel",
-      "introduction": "Développeur curieux et passionné par internet et les nouvelles technologies avec {{years}} ans d'expérience dans la conception et le développement de projets web. Adepte du clean code et de l'éco-conception, j'aime que le code soit propre, optimisé et performant. Réactif, bienveillant et doté d'un fort esprit d'équipe, mon aide est particulièrement appréciée pour résoudre les problèmes et relever de nouveaux challenges."
+      "introduction": "J'accompagne les entreprises dans la création d'applications web sur mesure et la modernisation d'applications existantes depuis {{years}} ans. Adepte du clean code et d'éco-conception, j'aime le code propre, optimisé et performant. Réactif, bienveillant et doté d'un fort esprit d'équipe, mon aide est particulièrement appréciée pour résoudre les problèmes et relever de nouveaux challenges."
     },
     "experiences": {
       "title": "Expérience professionnelle",
@@ -67,6 +67,7 @@
           "type": "CDI",
           "location": "Bidart",
           "technologies": "TypeScript, React, SPFx, SharePoint Online, services Azure, Frameworks UI, agents IA",
+          "description": "Conception et développement d'applications web et de composants sur mesure pour SharePoint Online et l'écosystème M365, de l'architecture à la mise en production, pour de grands comptes des secteurs aéronautique et automobile. Développement d'agents IA et Skills personnalisés, Context et Harness engineering. R&D sur un framework IA qui centralise la connaissance d'une organisation pour la mettre à disposition de ses agents IA.",
           "context": "Développement web dans SharePoint Online et l'écosystème M365.",
           "details": [
             "Conception, architecture et développement d'application web et de composants sur-mesure pour SharePoint Online, afin de répondre aux besoins variés de grandes entreprises du secteur aéronautique et automobile."
@@ -80,6 +81,7 @@
           "type": "Freelance",
           "location": "Bidart",
           "technologies": "TypeScript, React, SPFx, Gulp",
+          "description": "Conception et développement d'un éditeur visuel de processus sous forme de diagrammes, intégré à SharePoint Online, à partir du cahier des charges client. Création d'une interface en drag & drop permettant d'ajouter des activités de différents types, de les connecter entre elles et d'y rattacher des éléments métier.",
           "context": "Développement d'un éditeur de processus représenté sous forme de diagramme dans Microsoft SharePoint Online.",
           "details": [
             "Conception, architecture et développement du composant de gestion de processus selon le cahier des charges.",
@@ -96,6 +98,7 @@
           "type": "Freelance",
           "location": "Télétravail",
           "technologies": "JavaScript, TypeScript, React, Axios, Material UI, Node, Express.js, SQL, Stripe",
+          "description": "Refonte de Mémorable, application de montage vidéo collaboratif, à partir des maquettes Figma. Mise en place des paiements avec Stripe, de l'édition de contenu (upload, texte, volume, découpage vidéo) et de relances email automatisées à chaque étape d'un projet.",
           "context": "Intégration du nouveau design et de nouvelles fonctionnalités sur l'application de montage vidéo automatisé Mémorable.",
           "details": [
             "Intégration du nouveau design selon les maquettes Figma.",
@@ -115,6 +118,7 @@
           "type": "CDI",
           "location": "Paris",
           "technologies": "JavaScript, TypeScript, React, Node, MongoDB, Redis, Socket.io, Axios, Styled Components, CoffeeScript, Python, Gatsby, PHP, Grav",
+          "description": "Conception et développement de Botfuel Dialog, framework open source de chatbots en Node.js. Développement et maintenance de l'écosystème produit pour le support client et le e-commerce : back-office, module de chat intelligent, FAQ dynamique et serveur associé. Création d'un proxy unifiant l'accès public et sécurisé aux API de l'entreprise, et de modules d'intégration pour Magento, WordPress et Shopify. Déploiement continu sur Heroku et AWS.",
           "context": "Développement d'un framework de chatbot open source, et d'un écosystème d'applications permettant de configurer des chatbots dédiés au support client et au e-commerce.",
           "details": [
             "Développement et maintient d'un écosystème d'applications comprenant un backoffice utilisant une API REST, un module de chat intelligent, un module d'affichage de FAQ dynamique et un serveur dédié au module de chat et de FAQ.",
@@ -149,6 +153,7 @@
           "type": "Projet d'entreprenariat",
           "location": "Paris",
           "technologies": "React, Node, MongoDB, Express, HTML5, CSS3",
+          "description": "Cofondation d'une startup proposant un outil d'interaction pour les conférences et un outil de gestion de projet. Validation technique des idées, spécifications, architecture et développement des produits en stack MERN, avec tests et CI/CD.",
           "context": "Développement d'une solution améliorant les interactions dans les conférences physique et d'une solution de gestion de projet.",
           "details": [
             "Validation des idées et leur faisabilité technique.",

@@ -55,7 +55,7 @@
   "professional": {
     "profile": {
       "title": "Professional profile",
-      "introduction": "Curious and passionate Web Developer with {{years}} years of experience in designing and developing web projects. Adept of clean code, I like the code to be clean, optimized and efficient. Reactive, caring and with a strong team spirit, my help is particularly appreciated to solve problems and to take on new challenges."
+      "introduction": "For the past {{years}} years, I have been helping companies build custom web applications and modernize existing ones. Fan of clean code and eco-design, I value clean, optimized, and high-performance code. Responsive, considerate, and a strong team player, my assistance is particularly valued when it comes to solving problems and tackling new challenges."
     },
     "experiences": {
       "title": "Professional experience",
@@ -67,6 +67,7 @@
           "type": "Permanent contract",
           "location": "Bidart, France",
           "technologies": "TypeScript, React, SPFx, SharePoint Online, Azure services, UI Frameworks, IA agents",
+          "description": "Design and build custom web applications and components for SharePoint Online and the M365 ecosystem, from architecture to production, for large aerospace and automotive companies. Build AI agents and custom Skills, Context and Harness engineering. Carry out R&D on an AI framework that centralizes an organization's knowledge and makes it available to its AI agents.",
           "context": "Web development in SharePoint Online and the M365 ecosystem.",
           "details": [
             "Design, architecture, and development of custom web applications and components for SharePoint Online to meet the diverse needs of large companies in the aerospace and automotive industries."
@@ -80,6 +81,7 @@
           "type": "Freelance",
           "location": "Bidart, France",
           "technologies": "TypeScript, React, SPFx, Gulp",
+          "description": "Designed and built a visual, diagram-based process editor embedded in SharePoint Online, based on the client's specifications. Created a drag & drop interface to add activities of different types, connect them and attach business elements to them.",
           "context": "Development of a diagrammatic process editor in Microsoft SharePoint Online.",
           "details": [
             "Design, architecture and development of the process editor component according to specifications.",
@@ -96,6 +98,7 @@
           "type": "Freelance",
           "location": "Remote",
           "technologies": "JavaScript, TypeScript, React, Axios, Material UI, Node, Express.js, SQL, Stripe",
+          "description": "Redesigned Mémorable, a collaborative video editing app, from Figma mock-ups. Implemented Stripe payments, content editing (upload, text, volume, video trimming) and automated email reminders at each project step.",
           "context": "Integration of the new design and new features on the Mémorable automated video editing web application.",
           "details": [
             "Redesign of the app according to the new figma mock-ups.",
@@ -115,6 +118,7 @@
           "type": "Permanent contract",
           "location": "Paris, France",
           "technologies": "JavaScript, TypeScript, React, Node, MongoDB, Redis, Socket.io, Axios, Styled Components, CoffeeScript, Python, Gatsby, PHP, Grav",
+          "description": "Designed and built Botfuel Dialog, an open source Node.js chatbot framework. Developed and maintained the product ecosystem for customer support and e-commerce: back office, smart chat widget, dynamic FAQ and their server. Created a proxy unifying public and secure access to the company's APIs, and integration modules for Magento, WordPress and Shopify. Continuous deployment on Heroku and AWS.",
           "context": "Development of an open source chatbot framework, and an ecosystem of applications for chatbots dedicated to customer support and e-commerce.",
           "details": [
             "Development and maintenance of an applications ecosystem, including a back office using an API rest, an intelligent chat widget, a dynamic FAQ widget and a server for the widgets.",
@@ -148,6 +152,7 @@
           "type": "Entrepreneurship project",
           "location": "Paris, France",
           "technologies": "React, Node, MongoDB, Express, HTML5, CSS3",
+          "description": "Co-founded a startup building a conference interaction tool and a project management tool. Handled technical validation, specifications, architecture and development of the products on the MERN stack, including tests and CI/CD.",
           "context": "Development of a solution to improve interactions during conferences and a project management solution.",
           "details": [
             "Validation of ideas and their technical feasibility.",
