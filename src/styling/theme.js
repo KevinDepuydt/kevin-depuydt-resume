@@ -1,3 +1,5 @@
+import axiomeLogoSrc from 'assets/logo-axiome-light.svg';
+
 const themeBase = {
   A4PageWidth: '210mm',
   A4PageHeight: '297mm',
@@ -27,4 +29,5 @@ export const axiomeTheme = {
   darkBackgroundColor: '#212020',
   darkBackgroundTitleColor: '#fff',
   darkBackgroundTextColor: 'rgba(255, 255, 255, 0.7)',
+  logoSrc: axiomeLogoSrc,
 };
